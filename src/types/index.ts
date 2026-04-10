@@ -8,3 +8,14 @@ export type WorkExperience = {
   responsibilities: string[];
   achievements: string[];
 };
+
+type LanguageFramework = {
+  name: string;
+  logo: string | null;
+};
+
+export type Language = {
+  name: string;
+  logo: string | null;
+  frameworks: LanguageFramework[];
+};
