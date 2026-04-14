@@ -10,7 +10,7 @@ function Hero() {
           I do
           <Typewriter
             options={{
-              strings: ['REST APIs', 'Microservices', 'Domain-Driven Design', 'Automated Testing'],
+              strings: ['REST APIs', 'Domain-Driven Design', 'Automated Testing'],
               autoStart: true,
               loop: true,
               deleteSpeed: 'natural',
